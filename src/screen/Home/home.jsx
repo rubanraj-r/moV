@@ -27,7 +27,6 @@ export default class Home extends React.Component {
   }
   generateMovieList(movies){
     return movies.map((movie, i) => {
-      console.log('movie - > ', movie);
       return (
         <MovieCard
           key = {i}
