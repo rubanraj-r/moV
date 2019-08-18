@@ -1,5 +1,5 @@
 const http = require('http')
-    , app = require('./serve/app.js')
+    , app = require('./server/app.js')
     , server = http.createServer(app)
     , PORT = process.env.PORT || 4004;
 

@@ -1,0 +1,13 @@
+.filter-menu {
+  width: 800px;
+  height: 400px;
+}
+
+.check-list {
+  display: inline;
+}
+
+.filter-list {
+  height: 300px;
+  overflow-y: scroll;
+}

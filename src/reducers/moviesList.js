@@ -1,3 +1,10 @@
 export default function moviesList(state = [], action) {
-  return (action.type === 'STORE_MOVIES') ? action.movies : state;
+  switch(action.type) {
+    case 'STORE_MOVIES':
+      return action.movies;
+    case 'FILTER_MOVIES':
+      return action.filteredMovies;
+    default:
+      return state;
+  }
 }
