@@ -18,7 +18,7 @@ function startServer() {
 if (require.main === module) {
     startServer()
         .then(t => console.log(t))
-        .catch(err => console.log(err));
+        .catch(err => console.error(err));
 } else {
     exports.server = server;
 }

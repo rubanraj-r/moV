@@ -1,4 +1,4 @@
-import Home from './Home/home.jsx';
+import Home from './home/home.jsx';
 
 export {
     Home
