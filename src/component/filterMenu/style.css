@@ -10,7 +10,7 @@
 }
 
 .filter-list {
-  height: 300px;
+  height: 200px;
   overflow-y: scroll;
   align-self: left;
 }
