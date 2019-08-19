@@ -35,7 +35,7 @@ class FilterMenu extends React.Component {
             value={genres.id}
             checked={this.state.checkedGenres.includes(genres.id)}
             onChange={(e) => this.handleOnchecked(e)}/>
-          <p>{genres.name}</p>
+          <label>{genres.name}</label> <br />
         </div>
       );
     });
@@ -80,28 +80,28 @@ class FilterMenu extends React.Component {
           <button onClick={() => this.setState(() => ({ showFilter: !this.state.showFilter }))}>
             {this.state.showFilter ? '-' : '+'}
           </button>
-          <br />
-          <br />
-          { 
-            this.state.showFilter ?
-              <div className='filter-menu'>
-                <h3>
-                  Filter with Genre
-                </h3>
-                <br />
-                <br />
-                <div className='filter-list'>
-                  {this.generateCheckedGenreFilter()}
-                </div>
-                <br />
-                <div>
-                  <button onClick={() => this.handleConfirmFilter()}>
-                    <p>Filter</p>
-                  </button>
-                </div>
-              </div> : null
-          }
+          <br /><br />
         </center>
+        { 
+          this.state.showFilter ?
+            <div className='filter-menu'>
+              <h3>
+                Filter with Genre
+              </h3>
+              <br />
+              <br />
+              <div className='filter-list'>
+                {this.generateCheckedGenreFilter()}
+              </div>
+              <br />
+              <div>
+                <button onClick={() => this.handleConfirmFilter()}>
+                  <p>Filter</p>
+                </button>
+              </div>
+              <br />
+            </div> : null
+        }
       </React.Fragment>
     );
   }

@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 // Server statics
-app.use(express.static('./bundle/'));
+app.use(express.static('./dist/'));
 
 // Routes
 app.use('/',(req,res,next)=> {

@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
 import { storeMovies, storeGenres, manageGenreList } from './../../actions/index.js';
 import { Pagination } from 'semantic-ui-react'
 
-class Home extends React.Component {
+export class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<< MovieCard >> should render correctly 1`] = `
+<Card>
+  <Image
+    as="img"
+    ui={false}
+    wrapped={true}
+  />
+  <CardContent>
+    <CardHeader
+      className="title"
+    />
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <input
+      defaultValue="3"
+      max="10"
+      min="1"
+      name="rating"
+      step="0.5"
+      type="number"
+    />
+    <Button
+      as="button"
+      circular={true}
+      icon={true}
+      size="small"
+      style={
+        Object {
+          "alignSelf": "right",
+          "marginLeft": "27px",
+        }
+      }
+    >
+      <Icon
+        as="i"
+        name="checkmark"
+        size="small"
+      />
+    </Button>
+  </CardContent>
+</Card>
+`;

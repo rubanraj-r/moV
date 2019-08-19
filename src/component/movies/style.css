@@ -6,10 +6,10 @@
   grid-gap: 10px;
   text-align: center;
 
-  @media screen and (min-width: 320px) 
-  and (max-width: 480px) {
-    max-width: 440px;
-    display: inline;
+  @media screen only (min-width: 480px) 
+  and (max-width: 940px) {
+    max-width: 780px;
+    display: flex;
   }
 }
 
@@ -24,94 +24,294 @@
 .one {
   grid-column: 1;
   grid-row: 1;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
 .two { 
   grid-column: 2;
   grid-row: 1;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }
 .three {
   grid-column: 3;
   grid-row: 1;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 3;
+  }
 }
 .four {
   grid-column: 4;
   grid-row: 1;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 4;
+  }
 }
 .five {
   grid-column: 1;
   grid-row: 2;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 5;
+  }
 }
 .six {
   grid-column: 2;
   grid-row: 2;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 6;
+  }
 }
 
 .seven {
   grid-column: 3;
   grid-row: 2;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 7;
+  }
 }
 
 .eight {
   grid-column: 4;
   grid-row: 2;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 8;
+  }
 }
 
 .nine {
   grid-column: 1;
   grid-row: 3;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 9;
+  }
 }
 
 .ten {
   grid-column: 2;
   grid-row: 3;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 5;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 10;
+  }
 }
 
 .eleven {
   grid-column: 3;
   grid-row: 3;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 11;
+  }
 }
 
 .twelve {
   grid-column: 4;
   grid-row: 3;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 6;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 12;
+  }
 }
 
 .thirteen {
   grid-column: 1;
   grid-row: 4;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 13;
+  }
 }
 
 .fourteen {
   grid-column: 2;
   grid-row: 4;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 7;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 14;
+  }
 }
 
 .fifteen {
   grid-column: 3;
   grid-row: 4;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 8;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 15;
+  }
 }
 
 .sixteen {
   grid-column: 4;
   grid-row: 4;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 8;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 16;
+  }
 }
 
 .seventeen {
   grid-column: 1;
   grid-row: 5;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 9;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 17;
+  }
 }
 
 .eighteen {
   grid-column: 2;
   grid-row: 5;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 9;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 18;
+  }
 }
 
 .nineteen {
   grid-column: 3;
   grid-row: 5;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 1;
+    grid-row: 10;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 19;
+  }
 }
 
 .twenty {
   grid-column: 4;
   grid-row: 5;
+
+  @media screen only (min-width:480px) and (max-width:780px) {
+    grid-column: 2;
+    grid-row: 10;
+  }
+
+  @media screen only (min-width:320px) and (max-width:479px) {
+    grid-column: 1;
+    grid-row: 20;
+  }
 }
